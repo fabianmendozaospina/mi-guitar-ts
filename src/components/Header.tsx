@@ -36,7 +36,7 @@ export default function Header({
 
                             <div id="cart" className="bg-white p-3">
                                 {isEmpty ? (
-                                    <p className="text-center">El cart esta vacio</p>
+                                    <p className="text-center">The cart is empty</p>
                                 ) : (
                                 <>
                                     <table className="w-100 table">
